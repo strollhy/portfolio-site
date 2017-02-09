@@ -1,4 +1,37 @@
-img {
-  display: block;
-  margin: auto;
+body {
+  font-family: 'Lato', sans-serif;
+  color: #747704;
+  font-weight: 300;
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.text-muted {
+  color: #BCBBBB;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-supper {
+  font-size: 48px;
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    width: 100%;
+  }
+
+  .logo img {
+    display: block;
+    margin: auto;
+  }
+
+  .name {
+    width: 100%;
+    text-align: center;
+  }
 }
