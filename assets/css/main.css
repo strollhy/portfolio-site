@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #747704;
   font-weight: 300;
 }
@@ -9,7 +9,7 @@ body {
 }
 
 .text-muted {
-  color: #BCBBBB;
+  color: #bcbbbb;
 }
 
 .text-thin {
